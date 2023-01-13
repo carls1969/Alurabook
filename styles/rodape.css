@@ -14,10 +14,6 @@ hr {
     display: none;
 }
 
-.lista-rodape__link {
-    color: var(--preto);
-}
-
 @media screen and (min-width: 1024px) {
     .lista__rodape {
         display: block;
@@ -52,6 +48,7 @@ hr {
         padding-left: 0.5em;
         font-size: 14px;
         text-decoration: none;
+        color: var(--preto)
     }
 
     .lista-rodape__item:hover {
